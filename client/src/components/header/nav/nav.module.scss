@@ -1,0 +1,21 @@
+.nav {
+    margin-right: 80px;
+
+    &_list {
+        display: flex;
+        column-gap: 60px;
+
+        &_item {
+            &_link {
+                text-decoration: none;
+                color: #FFF;
+                font-family: 'Murecho', sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.1px;
+            }
+        }
+    }
+}
