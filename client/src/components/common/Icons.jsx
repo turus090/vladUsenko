@@ -1,6 +1,8 @@
+import s from "./icon.module.scss";
 export const InstagramIcon = () => {
   return (
     <svg
+      className={s.instagram}
       width="28"
       height="28"
       viewBox="0 0 28 28"
@@ -18,6 +20,7 @@ export const InstagramIcon = () => {
 export const TelegramIcon = () => {
   return (
     <svg
+      className={s.telegram}
       width="26"
       height="25"
       viewBox="0 0 26 25"
@@ -45,6 +48,7 @@ export const TelegramIcon = () => {
 export const FacebookIcon = () => {
   return (
     <svg
+      className={s.facebook}
       width="20"
       height="24"
       viewBox="0 0 20 24"
